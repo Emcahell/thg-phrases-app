@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <section className="widget">
-        <h1>The Hunger Games Vibes</h1>
+        <h1 translate='no'>The Hunger Games Vibes</h1>
         <div 
         className={`box-phrase ${isVisible ? 'fade-in' : 'fade-out'}`}
         onClick={changeQuote} //Me permite cambiar la frase al hacer clic en ella tambien
