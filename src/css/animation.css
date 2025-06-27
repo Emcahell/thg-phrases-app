@@ -1,0 +1,25 @@
+@keyframes animation {
+  0% {
+    box-shadow: 1px 0 25px var(--color-red);
+  }
+
+  20% {
+    box-shadow: 0 2px 25px var(--color-orange);
+  }
+
+  40% {
+    box-shadow: 0 0 30px var(--color-red);
+  }
+
+  60% {
+    box-shadow: 0 0 25px var(--color-orange);
+  }
+
+  80% {
+    box-shadow: 0 -4px 40px var(--color-red);
+  }
+
+  100% {
+    box-shadow: 0 0 25px var(--color-orange);
+  }
+}

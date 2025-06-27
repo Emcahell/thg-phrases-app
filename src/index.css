@@ -1,0 +1,37 @@
+@import url(./css/widget.css);
+@import url(./css/media-querys.css);
+@import url(./css/animation.css);
+
+:root {
+  --color-black: #0e0d0d;
+  --color-gray: rgb(32, 31, 31);
+  --color-white: rgba(255, 255, 255, 0.87);
+  --color-text-dark: rgb(151, 148, 148);
+
+  --color-red: rgba(219, 54, 54, 0.507);
+  --color-orange: rgba(230, 107, 25, 0.507);
+  
+  --color-green: rgba(78, 151, 78, 0.774);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-white);
+  background-color: var(--color-black);
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
