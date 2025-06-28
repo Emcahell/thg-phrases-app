@@ -33,8 +33,8 @@ function App() {
         className={`box-phrase ${isVisible ? 'fade-in' : 'fade-out'}`}
         onClick={changeQuote} //Me permite cambiar la frase al hacer clic en ella tambien
         >
-        <p className="phrase">"{currentQuote.phrase}"</p>
-        <p className="author">- {currentQuote.author}</p>
+        <p className="phrase" translate='no'>"{currentQuote.phrase}"</p>
+        <p className="author" translate='no'>- {currentQuote.author}</p>
       </div>
         <button 
           onClick={changeQuote}>
